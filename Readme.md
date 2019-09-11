@@ -27,7 +27,7 @@ Note: xAT is Transform of xA
  											| Ve:0.001;
  		| xA:EWA cls px								
  		| yC:EWC cls px
- 		------Start of LOOP through each Data Point Pair for its beta --------
++ ----------------Start of LOOP through each Data Point Pair for its beta --------
 + ===measurement/model equations===*******=====system/process equations============ 
 +  =======transform of data=====**********======Variance/Covariance Adj======
 + 										  | R:P+Vw

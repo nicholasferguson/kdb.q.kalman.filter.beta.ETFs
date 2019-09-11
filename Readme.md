@@ -21,7 +21,7 @@ q)\t \l beta.kalman.q
 	+  Q  Estimated process error covariance, measurement variance prediction
 	+  K  Kalman Gain
 	+  P  State Variance
-	+  e  measurement prediction error
+	+  e  measurement prediction error ( This is 'M' in other literatures.
 	+  yhat measurement prediction
 + ========================Init Data ================================
 + ===measurement/model equations===**********=====system/process equations============ 

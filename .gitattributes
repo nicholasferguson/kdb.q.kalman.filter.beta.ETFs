@@ -3,3 +3,5 @@
 # modern version of git and editors capable of LF line endings.
 
 *.q -text diff=q
+* linguist-vendored
+*.m linguist-vendored=false

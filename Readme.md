@@ -15,14 +15,14 @@ q)\t \l beta.kalman.q
 
 Note: xAT is Transform of xA
 
-+ =========================================================================
-+ 
-+  R  Estimated measurement error covariance. 
-+  Q  Estimated process error covariance, measurement variance prediction
-+  K  Kalman Gain
-+  P  State Variance
-+  e  measurement prediction error
-+  yhat measurement prediction
+# =========================================================================
+ 
+	+  R  Estimated measurement error covariance. 
+	+  Q  Estimated process error covariance, measurement variance prediction
+	+  K  Kalman Gain
+	+  P  State Variance
+	+  e  measurement prediction error
+	+  yhat measurement prediction
 + ========================Analysis of code ================================
 + 													Vw:Vw*(delta%(1-delta))
  													Ve:0.001;

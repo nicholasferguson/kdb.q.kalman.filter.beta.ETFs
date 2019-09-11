@@ -21,7 +21,7 @@ q)\t \l beta.kalman.q
 	+  Q  Estimated process error covariance, measurement variance prediction
 	+  K  Kalman Gain
 	+  P  State Variance
-	+  e  measurement prediction error ( This is 'M' in other literatures.
+	+  e  measurement prediction error ( This is 'M' in other literatures. )
 	+  yhat measurement prediction
 + ========================Init Data ================================
 + ===measurement/model equations===**********=====system/process equations============ 
@@ -34,7 +34,7 @@ q)\t \l beta.kalman.q
 + ===measurement/model equations===**********=====system/process equations============ 
 +  =======transform of data=====*************======Variance/Covariance Adj======
 + 										  | R:P+Vw
-		| beta[;t]:beta[;t-1]
+		| beta[;t]:beta[;t-1] (if not initial loop)
  	    | yhat,:sum xA[t;]*beta[;t]
  										  | Q,:(sumMV[R;xA[t;]]) + Ve	       Q=xA.R.xAT + Ve	
  		| e,:yC[t]-yhat[t]

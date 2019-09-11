@@ -15,7 +15,7 @@ q)\t \l beta.kalman.q
 
 + Note: xAT is Transform of xA
 + Note: This script was run in kdb+ 64x, cmd line:  q q.k -s 1 -p 5010
-+ Note:  WYSIWYG is off in github
+
 # ======Code flow analysis
 	+  R  Estimated measurement error covariance. 
 	+  Q  Estimated process error covariance, measurement variance prediction

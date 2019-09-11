@@ -28,10 +28,12 @@ Note:  WYSIWYG is off in github
  											| Ve:0.001;
  		| xA:EWA cls px								
  		| yC:EWC cls px
+		| beta[;0]:0f;
 + ------------Start of LOOP through each Data Point of EWA/EWC Pair for its beta --------
 + ===measurement/model equations===**********=====system/process equations============ 
 +  =======transform of data=====*************======Variance/Covariance Adj======
 + 										  | R:P+Vw
+		| beta[;t]:beta[;t-1]
  	    | yhat,:sum xA[t;]*beta[;t]
  										  | Q,:(sumMV[R;xA[t;]]) + Ve	       Q=xA.R.xAT + Ve	
  		| e,:yC[t]-yhat[t]

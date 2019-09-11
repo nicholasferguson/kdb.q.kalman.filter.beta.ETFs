@@ -16,7 +16,8 @@ q)\t \l beta.kalman.q
 Note: xAT is Transform of xA
 
 + =========================================================================
-+ R  Estimated measurement error covariance. 
++ 
+ R  Estimated measurement error covariance. 
  Q  Estimated process error covariance, measurement variance prediction
  K  Kalman Gain
  P  State Variance

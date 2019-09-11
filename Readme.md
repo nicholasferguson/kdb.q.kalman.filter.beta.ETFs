@@ -30,15 +30,15 @@ Note: xAT is Transform of xA
  		------Start of LOOP through each Data Point Pair for its beta --------
 + ===measurement/model equations===*******=====system/process equations============ 
 +  =======transform of data=====**********======Variance/Covariance Adj======
-+ 											| R:P+Vw
++ 										  | R:P+Vw
  	    | yhat,:sum xA[t;]*beta[;t]
- 											| Q,:(sumMV[R;xA[t;]]) + Ve	       Q=xA.R.xAT + Ve	
+ 										  | Q,:(sumMV[R;xA[t;]]) + Ve	       Q=xA.R.xAT + Ve	
  		| e,:yC[t]-yhat[t]
- 											| K:mmu[R;vvmu[xA[t;];(1%Q[t])]]   K=R.xAT.1/Q
- 				 _______________<_Adj Var___________________|				
+ 										  | K:mmu[R;vvmu[xA[t;];(1%Q[t])]]   K=R.xAT.1/Q
+ 				 _______________<_Adj Var________________________|				
  			     |
  	    | beta[;t]:beta[;t]+K*\:e[t]
- 											| P:R-vvmu[mmu[xA[t;];R];K]  		P=R-K.xA.R
+ 										  | P:R-vvmu[mmu[xA[t;];R];K]  		P=R-K.xA.R
  													
 + -----------------------------------End of LOOP----------------------------------
 													

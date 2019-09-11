@@ -22,7 +22,7 @@ Note:  WYSIWYG is off in github
 	+  P  State Variance
 	+  e  measurement prediction error
 	+  yhat measurement prediction
-+ ========================Analysis of code ================================
++ ========================Init Data ================================
 + 											| Vw:Vw*(delta%(1-delta))
  											| Ve:0.001;
  		| xA:EWA cls px								

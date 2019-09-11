@@ -35,7 +35,7 @@ Note: xAT is Transform of xA
  											| Q,:(sumMV[R;xA[t;]]) + Ve	       Q=xA.R.xAT + Ve	
  		| e,:yC[t]-yhat[t]
  											| K:mmu[R;vvmu[xA[t;];(1%Q[t])]]   K=R.xAT.1/Q
- 				 _______________<_Adj Var___|				
+ 				 _______________<_Adj Var___________________|				
  			     |
  	    | beta[;t]:beta[;t]+K*\:e[t]
  											| P:R-vvmu[mmu[xA[t;];R];K]  		P=R-K.xA.R

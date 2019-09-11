@@ -16,21 +16,21 @@ q)\t \l beta.kalman.q
 Note: xAT is Transform of xA
 
 + =========================================================================
- R  Estimated measurement error covariance. 
++R  Estimated measurement error covariance. 
  Q  Estimated process error covariance, measurement variance prediction
  K  Kalman Gain
  P  State Variance
  e  measurement prediction error
  yhat measurement prediction
 + ========================Analysis of code ================================
- 													Vw:Vw*(delta%(1-delta))
++ 													Vw:Vw*(delta%(1-delta))
  													Ve:0.001;
  		| xA:EWA cls px								
  		| yC:EWC cls px
  		------Start of LOOP through each Data Point Pair for its beta --------
 + ===measurement/model equations===     =====system/process equations============ 
-  =======transform of data=====          ======Variance/Covariance Adj======
- 											| R:P+Vw
++  =======transform of data=====          ======Variance/Covariance Adj======
++ 											| R:P+Vw
  	    | yhat,:sum xA[t;]*beta[;t]
  											| Q,:(sumMV[R;xA[t;]]) + Ve	       Q=xA.R.xAT + Ve	
  		| e,:yC[t]-yhat[t]

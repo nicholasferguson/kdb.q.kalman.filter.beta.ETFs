@@ -28,8 +28,8 @@ Note: xAT is Transform of xA
  		| xA:EWA cls px								
  		| yC:EWC cls px
  		------Start of LOOP through each Data Point Pair for its beta --------
-+ ===measurement/model equations===     =====system/process equations============ 
-+  =======transform of data=====          ======Variance/Covariance Adj======
++ ===measurement/model equations===       |=====system/process equations============ 
++  =======transform of data=====          |======Variance/Covariance Adj======
 + 											| R:P+Vw
  	    | yhat,:sum xA[t;]*beta[;t]
  											| Q,:(sumMV[R;xA[t;]]) + Ve	       Q=xA.R.xAT + Ve	

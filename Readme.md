@@ -23,6 +23,7 @@ Note:  WYSIWYG is off in github
 	+  e  measurement prediction error
 	+  yhat measurement prediction
 + ========================Init Data ================================
++ ===measurement/model equations===**********=====system/process equations============ 
 + 											| Vw:Vw*(delta%(1-delta))
  											| Ve:0.001;
  		| xA:EWA cls px								
